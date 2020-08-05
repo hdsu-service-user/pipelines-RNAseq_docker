@@ -1,6 +1,6 @@
 FROM broadinstitute/picard
 
-RUN apt install software-properties-common
+RUN apt install -y software-properties-common
 
 RUN add-apt-repository universe
 RUN apt-get install samtools
